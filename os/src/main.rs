@@ -15,7 +15,7 @@ global_asm!(include_str!("entry.asm"));
 #[unsafe(no_mangle)]
 pub fn rust_main() -> ! {
     clear_bss();
-    let x:Option<u32> = Option::None;
+    let x:Option<u32> = Some(233u32);
     print!("{}", x.unwrap());
     loop{}
 }
