@@ -1,4 +1,3 @@
-use super::exit;
 use core::panic::PanicInfo;
 
 #[panic_handler]
