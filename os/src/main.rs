@@ -7,6 +7,8 @@ mod console;
 mod lang_items;
 mod sbi;
 mod logging;
+mod sync;
+mod batch;
 
 use core::arch::global_asm;
 use log::*;
